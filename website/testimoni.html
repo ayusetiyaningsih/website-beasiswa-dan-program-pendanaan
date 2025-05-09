@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Website Beasiswa dan Program Pendanaan</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-scholar.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 586 Scholar
+
+https://templatemo.com/tm-586-scholar
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <h1>UBHI Beasiswa</h1>
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Serach Start ***** -->
+                    <div class="search-input">
+                      <form id="search" action="#">
+                        <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                        <i class="fa fa-search"></i>
+                      </form>
+                    </div>
+                    <!-- ***** Serach Start ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+                      <li class="scroll-to-section"><a href="services.html">Services</a></li>
+                      <li class="scroll-to-section"><a href="beasiswa.html">Prosedur</a></li>
+                      <li class="scroll-to-section"><a href="testimoni.html">Testimonials</a></li>
+                      <li class="scroll-to-section"><a href="contact.html">Register Now!</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <div class="main-banner" id="index">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-banner">
+            <div class="item item-2">
+              <div class="header-text">
+                <span class="category">Our Courses</span>
+                <h2>Testimonials</h2>
+                <p>
+                  Dapatkan dukungan finansial melalui beasiswa dan program pendanaan untuk mendukung studi dan riset Anda.
+                   Tersedia berbagai skema, mulai dari beasiswa penuh,hibah riset, hingga bantuan biaya pendidikan.
+                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="section testimonials" id="testimoni">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="owl-carousel owl-testimonials">
+            <div class="item">
+              <p>“Beasiswa ini membuka jalan saya menuju mimpi yang dulu terasa jauh.”</p>
+              <div class="author">
+                <img src="assets/images/member-04.jpg" alt="">
+                <span class="category">Beasiswa Prestasi Akademik</span>
+                <h4>Vita Ramadhana</h4>
+              </div>
+            </div>
+            <div class="item">
+              <p>“Dukungan pendanaan ini membuat riset saya benar-benar terwujud.”</p>
+              <div class="author">
+                <img src="assets/images/member-03.jpg" alt="">
+                <span class="category">Beasiswa Kurang Mampu</span>
+                <h4>Briyan Efendy</h4>
+              </div>
+            </div>
+            <div class="item">
+              <p>“Bukan hanya dana, tapi juga bimbingan dan jaringan yang luar biasa.”</p>
+              <div class="author">
+                <img src="assets/images/member-01.jpg" alt="">
+                <span class="category">Beasiswa Pertukaran mahasiswa/Internasional </span>
+                <h4>Dea anggun</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            <h6>TESTIMONIALS</h6>
+            <h2>What they say about us?</h2>
+            <p>Program beasiswa ini benar-benar mengubah hidup saya. Tidak hanya memberikan dukungan finansial, tetapi juga membuka akses ke jaringan mentor dan sesama penerima yang luar biasa. Saya bisa fokus pada studi saya tanpa beban biaya, 
+              dan hasilnya saya lulus dengan predikat cumlaude. Program ini adalah langkah awal yang sangat penting dalam perjalanan akademik dan profesional saya.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2036 Universitas Bhinneka PGRI. All rights reserved. &nbsp;&nbsp;&nbsp; </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleContent(event, element) {
+      event.preventDefault();
+      const content = element.closest('.main-content').querySelector('.extra-content');
+      const isVisible = content.style.display === 'block';
+      content.style.display = isVisible ? 'none' : 'block';
+      element.textContent = isVisible ? 'Read More' : 'Read Less';
+    }
+  </script>
+  <script>
+    function toggleFAQ(index) {
+      const answers = document.querySelectorAll('.faq-answer');
+      const current = answers[index];
+      current.style.display = current.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", function(e) {
+      e.preventDefault(); // Mencegah submit bawaan
+  
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+  
+      const phoneNumber = "6281331967687";
+      const text = `Halo! Saya ${name} (%0AEmail: ${email}) ingin menghubungi Anda.%0A%0APesan:%0A${message}`;
+      const url = `https://wa.me/${phoneNumber}?text=${text}`;
+  
+      window.open(url, "_blank"); // Buka WhatsApp di tab baru
+    });
+  </script>
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  </body>
+
+</html>
